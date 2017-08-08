@@ -1,0 +1,39 @@
+{
+  "name": "basic-config",
+  "version": "1.0.0",
+  "description": "React Redux Configuration",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch server server/index & webpack --watch",
+    "watch": "nodemon -e js,jsx -x npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jappaa/basicConfig.git"
+  },
+  "author": "npm-dev <noreply@marketlogicsoftware.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jappaa/basicConfig/issues"
+  },
+  "homepage": "https://github.com/jappaa/basicConfig#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "css-loader": "^0.28.4",
+    "express": "^4.15.4",
+    "nodemon": "^1.11.0",
+    "path": "^0.12.7",
+    "postcss-load-config": "^1.2.0",
+    "postcss-loader": "^2.0.6",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.6.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  }
+}
